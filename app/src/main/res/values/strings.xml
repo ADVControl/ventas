@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="saldo">Saldo</string>
+    <string name="inventario_simple_de_ventas_usando_android">Inventario Simple de Ventas usando android</string>
+    <string name="nombre_del_producto">Nombre del Producto</string>
+    <string name="precio">precio</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="ffff">#fff</string>
+    <string name="pago">Pago</string>
+    <string name="fffff">#fff</string>
+    <string name="ffffff">#fff</string>
+    <string name="saldo_tb">Saldo</string>
+    <string name="nombre_del_producto_tb">Nombre del producto</string>
+    <string name="precio_tb">Precio</string>
+    <string name="cantidad_tb">Cantidad</string>
+    <string name="total_tb">Total</string>
+    <string name="add" />
+</resources>
