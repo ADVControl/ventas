@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
     public void add()
     {
         int tot;
+
         String nombreProd = ed1.getText().toString();
         int precio = Integer.parseInt(ed2.getText().toString());
         int cantidad = Integer.parseInt(ed3.getText().toString());
@@ -59,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
         data1.add(String.valueOf(precio));
         data2.add(String.valueOf(cantidad));
         data3.add(String.valueOf(tot));
+
+        TableLayout table = (TableLayout) findViewById(R.id.tb1);
 
         TableRow row = new TableRow(this);
         TextView t1 = new TextView(this);
@@ -70,15 +73,15 @@ public class MainActivity extends AppCompatActivity {
 
         int sum = 0;
 
-        for(int i = 0; i< data.size(); i++)
+        for(int i = 0; i < data.size(); i++)
         {
             String nombrep = data.get(i);
-            String prd = data1.get(i);
+            String pre = data1.get(i);
             String ctd = data2.get(i);
             total = data3.get(i);
 
             t1.setText(nombrep);
-            t2.setText(prd);
+            t2.setText(pre);
             t3.setText(ctd);
             t4.setText(total);
 
